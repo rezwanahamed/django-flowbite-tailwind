@@ -27,3 +27,9 @@
 @source "../../node_modules/flowbite";
 
 /* Custom styles can be added below */
+@layer components {
+  .hero-banner {
+    @apply h-[800px] bg-cover bg-center bg-no-repeat;
+    background-image: url("/static/assets/hero_banner.png");
+  }
+}
