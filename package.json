@@ -1,0 +1,18 @@
+{
+  "name": "django-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./static/src/input.css -o ./static/src/output.css",
+    "watch": "tailwindcss -i ./static/src/input.css -o ./static/src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "flowbite": "^4.0.1",
+    "tailwindcss": "^4.2.4"
+  }
+}

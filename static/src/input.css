@@ -1,0 +1,16 @@
+/* static/src/input.css */
+
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+/* Import Flowbite themes and components */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import "flowbite/src/themes/default";
+
+/* Import Flowbite plugin */
+@plugin "flowbite/plugin";
+
+/* Configure source files for Flowbite */
+@source "../../node_modules/flowbite";
+
+/* Custom styles can be added below */
