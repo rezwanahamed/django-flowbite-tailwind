@@ -3,69 +3,53 @@
 endblock %} {% block content %}
 
 <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-  <h1
-    class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
-  >
+  <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
     About Our Store
   </h1>
-  <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400">
+  <p class="mb-4 text-lg font-normal text-gray-500">
     Welcome to our Django-powered eCommerce store! We've built this modern
     platform using the latest web technologies including Tailwind CSS and
     Flowbite components to provide you with the best shopping experience.
   </p>
 
-  <h2 class="mb-4 text-2xl font-bold text-gray-900 dark:text-white">
-    Our Mission
-  </h2>
-  <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400">
+  <h2 class="mb-4 text-2xl font-bold text-gray-900">Our Mission</h2>
+  <p class="mb-4 text-lg font-normal text-gray-500">
     Our mission is to provide customers with high-quality products at affordable
     prices, backed by exceptional customer service. We believe in creating a
     shopping experience that is both intuitive and enjoyable.
   </p>
 
-  <h2 class="mb-4 text-2xl font-bold text-gray-900 dark:text-white">
-    Why Build with Django?
-  </h2>
+  <h2 class="mb-4 text-2xl font-bold text-gray-900">Why Build with Django?</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div class="bg-blue-50 dark:bg-blue-900 p-6 rounded-lg">
-      <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
-        Secure
-      </h3>
-      <p class="text-gray-600 dark:text-gray-300">
+    <div class="bg-blue-50 p-6 rounded-lg">
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Secure</h3>
+      <p class="text-gray-600">
         Django includes built-in security features to protect your data and
         transactions.
       </p>
     </div>
-    <div class="bg-green-50 dark:bg-green-900 p-6 rounded-lg">
-      <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
-        Scalable
-      </h3>
-      <p class="text-gray-600 dark:text-gray-300">
+    <div class="bg-green-50 p-6 rounded-lg">
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Scalable</h3>
+      <p class="text-gray-600">
         Built to handle growing user bases and increased transaction volumes.
       </p>
     </div>
-    <div class="bg-purple-50 dark:bg-purple-900 p-6 rounded-lg">
-      <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
-        Developer Friendly
-      </h3>
-      <p class="text-gray-600 dark:text-gray-300">
+    <div class="bg-purple-50 p-6 rounded-lg">
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Developer Friendly</h3>
+      <p class="text-gray-600">
         Django's batteries-included philosophy makes development faster and
         easier.
       </p>
     </div>
-    <div class="bg-orange-50 dark:bg-orange-900 p-6 rounded-lg">
-      <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
-        Flexible
-      </h3>
-      <p class="text-gray-600 dark:text-gray-300">
+    <div class="bg-orange-50 p-6 rounded-lg">
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Flexible</h3>
+      <p class="text-gray-600">
         Easily customize and extend functionality to meet your specific needs.
       </p>
     </div>
   </div>
 
-  <h2 class="mb-4 text-2xl font-bold text-gray-900 dark:text-white">
-    Technology Stack
-  </h2>
+  <h2 class="mb-4 text-2xl font-bold text-gray-900">Technology Stack</h2>
   <div class="space-y-2 mb-8">
     <div class="flex items-center">
       <svg
@@ -80,7 +64,7 @@ endblock %} {% block content %}
           clip-rule="evenodd"
         ></path>
       </svg>
-      <span class="text-lg text-gray-700 dark:text-gray-300"
+      <span class="text-lg text-gray-700"
         ><strong>Django:</strong> Powerful Python web framework</span
       >
     </div>
@@ -97,7 +81,7 @@ endblock %} {% block content %}
           clip-rule="evenodd"
         ></path>
       </svg>
-      <span class="text-lg text-gray-700 dark:text-gray-300"
+      <span class="text-lg text-gray-700"
         ><strong>Tailwind CSS:</strong> Utility-first CSS framework</span
       >
     </div>
@@ -114,22 +98,20 @@ endblock %} {% block content %}
           clip-rule="evenodd"
         ></path>
       </svg>
-      <span class="text-lg text-gray-700 dark:text-gray-300"
+      <span class="text-lg text-gray-700"
         ><strong>Flowbite:</strong> Beautiful UI components</span
       >
     </div>
   </div>
 
-  <div class="bg-blue-50 dark:bg-blue-900 p-6 rounded-lg">
-    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">
-      Get in Touch
-    </h3>
-    <p class="text-gray-600 dark:text-gray-300 mb-4">
+  <div class="bg-blue-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-gray-900 mb-4">Get in Touch</h3>
+    <p class="text-gray-600 mb-4">
       Have questions? We'd love to hear from you. Contact us at any time.
     </p>
     <a
       href="{% url 'index' %}"
-      class="inline-block text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+      class="inline-block text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
     >
       Back to Home
     </a>

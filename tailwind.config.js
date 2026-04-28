@@ -10,8 +10,10 @@ module.exports = {
       colors: {
         primary: "#00D084",
       },
+      fontFamily: {
+        sans: ["Geist", "sans-serif"],
+      },
     },
   },
   plugins: [require("flowbite/plugin")],
-  darkMode: "class",
 };
